@@ -1,2 +1,0 @@
-# MySite-
-Create MySite folder
