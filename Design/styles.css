@@ -1,0 +1,275 @@
+/* Navigation Styles */
+.hero-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-banner nav ul {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.hero-banner nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative; /* Add relative positioning */
+}
+
+.hero-banner nav ul li a {
+    color: black; /* Set the color to black */
+    text-decoration: none;
+    display: inline-flex; /* Use inline-flex to arrange link and icon horizontally */
+    align-items: center; /* Align items vertically in the center */
+}
+
+/* Style for the arrow icon */
+.hero-banner nav ul li a i {
+    position: absolute;
+    top: 50%;
+    right: -15px; /* Adjust the position of the arrow */
+    transform: translateY(-50%);
+}
+
+/* Change color of Michael Shanks */
+.hero-banner h1 a {
+    color: #669900; /* Change the color to green */
+}
+
+.navigation-menu ul {
+    font-size: 6px; /* Adjust font size as needed */
+}
+
+/* Reset styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Navigation (Topnav) Styles */
+.topnav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333;
+    overflow: hidden;
+    border-bottom: 2px solid #ddd;
+}
+
+.topnav h1 a {
+    color: black; /* Set the color to black */
+    text-decoration: none; /* Remove underline */
+}
+
+.topnav h1 {
+    float: left;
+    margin: 0;
+    padding: 10px;
+    color: black; /* Set the color to black */
+}
+
+.navigation-menu {
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    float: right;
+    padding: 10px;
+}
+
+.navigation-menu ul {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative; /* Add relative positioning */
+}
+
+.navigation-menu ul li a {
+    display: block;
+    color: black; /* Set the color to black */
+    text-align: center;
+    display: flex; /* Use flexbox to arrange link and icon horizontally */
+    align-items: center; /* Align items vertically in the center */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation-menu ul li a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+.navigation-menu ul li a i {
+    position: absolute;
+    top: 50%;
+    right: -15px; /* Adjust the position of the arrow */
+    transform: translateY(-50%);
+}
+.black-icon {
+    color: black; /* Set the color to black */
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.left-section,
+.left-middle-section,
+.right-middle-section,
+.right-section {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.left-section,
+.right-section {
+    text-align: left;
+}
+
+.special-links {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.special-links a {
+    text-decoration: none;
+}
+
+.special-links a {
+    color: black; /* Set the color to black */
+}
+.special-links a i {
+    color: black; /* Set the color to black */
+    font-size: 24px; /* Adjust icon size as needed */
+    margin-right: 10px; /* Add spacing between icon and text */
+}
+
+.special-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+/* Decrease font size for links inside special-links */
+.special-links a {
+    font-size: 14px;
+}
+
+/* Decrease font size for links inside navigation-menu */
+.navigation-menu ul li a {
+    font-size: 14px;
+}
+
+/* Typography Test CSS */
+/* I'm removing this part as it doesn't affect the header color */
+
+
+/* Typography Test CSS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.fine-print {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #777777;
+}
+
+.inline-links {
+    font-family: 'Poppins', sans-serif;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.navigation-links {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bo ld;
+    color: #333333;
+}
+
+.small-links {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Color Scheme Showcase CSS */
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.product-section {
+    
+    justify-content: space-evenly; /* Adjust as needed */
+}
+
+.product {
+    /* Optional: Add styling for individual products */
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    text-align: left;
+}
+#customer-service {
+    padding-bottom: 100px; /* Add some padding to the bottom */
+}
